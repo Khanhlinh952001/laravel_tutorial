@@ -7,13 +7,13 @@
                 <div class="max-w-md mx-auto">
                     <div class="flex items-center space-x-5">
                         <div class="block pl-2 font-semibold text-xl text-gray-700">
-                            <h1 class="leading-relaxed">Create Food Information</h1>
+                            <h1 class="leading-relaxed">Create Food Information .</h1>
                         </div>
                     </div>
 
-                    <form action="/foods" method="post" class="divide-y divide-gray-200" enctype="multipart/form-data"> 
+                    <form action="/foods" method="post" class="divide-y divide-gray-200" enctype="multipart/form-data">
                         @csrf
-                        
+
                         <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
                             <div class="flex flex-col">
                                 <label for="name" class="leading-loose">Name</label>
